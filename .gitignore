@@ -1,0 +1,11 @@
+node_modules
+coverage
+.awcache
+test-report.*
+junit.xml
+*.log
+*.orig
+package-lock.json
+yarn.lock
+.awcache
+public
