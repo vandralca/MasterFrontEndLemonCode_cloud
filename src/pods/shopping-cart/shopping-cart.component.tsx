@@ -41,7 +41,7 @@ export const ShoppingCartComponent : React.FC = () => {
                     {cartElements.length > 0
                         ? cartElements.map(cat =>
                             <CartItem key={cat.id} item={cat} readOnly={false} />)
-                        : <span>Your cart is empty</span>
+                        : <span>Your cart is empty.</span>
                     }
 
                 </div>
